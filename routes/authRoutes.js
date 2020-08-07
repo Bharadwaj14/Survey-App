@@ -18,4 +18,10 @@ module.exports = app => {
         req.logout();
         res.redirect('/');
     });
+//     app.get('/email/yes', (req,res)=>{
+//          console.log(req); 
+//     });
+//     app.get('/email/no', (req,res)=>{
+//         console.log(req); 
+//    });
 };
